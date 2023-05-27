@@ -1,0 +1,19 @@
+
+[project]
+name = "PwnUtils"
+version = "0.1.0"
+description = "A collection of useful pwn scripts in one"
+authors = [
+    {name = "Meul Nova", email = "n@ova.moe"},
+]
+dependencies = [
+    "google>=3.0.0",
+    "protobuf>=4.23.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
